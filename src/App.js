@@ -60,7 +60,7 @@ export default function App() {
                   style={styles.likeText}
                   testID={`repository-likes-${repository.id}`}
                 >
-                  {repository.likes} Curtidas
+                  {repository.likes} curtidas
                 </Text>
               </View>
 
@@ -69,7 +69,7 @@ export default function App() {
                 onPress={() => handleLikeRepository(repository.id)}
                 testID={`like-button-${repository.id}`}
               >
-                <Text style={styles.buttonText}>Curtir Repositório</Text>
+                <Text style={styles.buttonText}>Curtir</Text>
               </TouchableOpacity>
             </View>
           )}
